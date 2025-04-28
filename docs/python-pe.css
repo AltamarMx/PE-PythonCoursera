@@ -1,0 +1,129 @@
+/*  python-pe.css  |  Tema RevealJS para el programa especializado
+--------------------------------------------------------------- */
+
+/* ─── Paleta ─────────────────────────────────────────────────── */
+:root{
+    --pe-gold:        #EABE37;   /* dorado dominante */
+    --pe-gold-light:  #FFF8DC;   /* fondo muy claro */
+    --pe-blue:        #293280;   /* azul marino (logo) */
+    --pe-blue-light:  #3B4EC9;   /* azul medio para enlaces */
+    --py-yellow:      #FFD43B;   /* amarillo Python */
+    --py-blue:        #306998;   /* azul Python oficial */
+  }
+  
+  /* ─── Fuente base ────────────────────────────────────────────── */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400&display=swap');
+  
+  .reveal{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    background: var(--pe-gold-light);
+    color:#222;
+  }
+  
+  /* ─── Títulos ────────────────────────────────────────────────── */
+  .reveal h1, .reveal h2, .reveal h3{
+    color: var(--pe-blue);
+    font-weight: 700;
+    margin-bottom: .5em;
+  }
+  
+  .reveal h1{
+    font-size: 2.2em;
+  }
+  .reveal h2{
+    font-size: 1.8em;
+  }
+  
+  /* ─── Listas ─────────────────────────────────────────────────── */
+  .reveal ul li::marker{
+    color: var(--py-yellow);      /* viñetas amarillas estilo Python */
+  }
+  
+  /* ─── Énfasis ────────────────────────────────────────────────── */
+  .reveal strong{
+    color: var(--pe-blue);
+  }
+  
+  /* ─── Enlaces ────────────────────────────────────────────────── */
+  .reveal a{
+    color: var(--py-blue);
+    text-decoration-thickness: 3px;
+  }
+  .reveal a:hover{
+    color: var(--pe-blue-light);
+  }
+  
+  /* ─── Código ─────────────────────────────────────────────────── */
+  .reveal code, .reveal pre{
+    font-family: 'Fira Code', monospace;
+    background: #fffdf0;
+    color: var(--pe-blue);
+  }
+  .reveal pre{
+    border-left: 6px solid var(--py-yellow);
+    padding: .8em 1em;
+  }
+  
+  /* ─── Barra de progreso ──────────────────────────────────────── */
+  .reveal .progress{
+    background: var(--pe-gold-light);
+  }
+  .reveal .progress span{
+    background: var(--pe-gold);
+  }
+  
+  /* ─── Footer ─────────────────────────────────────────────────── */
+  .reveal .slide-number,
+  .reveal footer{
+    color: var(--py-blue);
+    font-weight:600;
+  }
+  
+  /* ─── Diapositiva de título con marca de agua ────────────────── */
+  .reveal section[data-state="title"]{
+    background-image: url("Logo-PyEContinua-COLOR.png");
+    background-position: 95% 8%;
+    background-size: 140px;
+    background-repeat: no-repeat;
+  }
+  
+  /* ─── Clases auxiliares opcionales ───────────────────────────── */
+  .blue-bg   { background: var(--py-blue)   !important; color:#fff!important;}
+  .gold-bg   { background: var(--pe-gold)  !important; color:#000!important;}
+  .center    { text-align:center!important; }
+  
+
+/* ─── 1. Diapositiva de título ─────────────────────────────── */
+/*  Usa la clase .title-slide en lugar de data-state            */
+/*  El logo se coloca sobre el contenido, no de fondo           */
+.reveal section.title-slide {
+    position: relative;  /* crea contexto para el logo absoluto  */
+  }
+  
+  .reveal section.title-slide .pe-logo-title{
+    position: absolute;
+    right: 4%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 190px;            /* cambia tamaño a tu gusto          */
+    max-width: 30vw;         /* se adapta a pantallas pequeñas    */
+    pointer-events: none;    /* no interfiere con clics           */
+  }
+  
+  /* ─── 2. Logo global en todas las diapositivas ─────────────── */
+  .reveal .slides::after{
+    content: '';
+    position: fixed;
+    bottom: 14px;            /* separa del pie                    */
+    left: 18px;              /* o right: si lo prefieres          */
+    width: 58px;
+    height: 58px;
+    background: url("Logo-PyEContinua-COLOR.png") center / contain no-repeat;
+    opacity: 0.10;           /* 0.05-0.15 = marca de agua sutil   */
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  /* (Mantén el resto de tu paleta, fuentes y estilos previos)   */
+  

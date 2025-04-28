@@ -1,0 +1,107 @@
+---
+title: "PE: Python, de cero a analista"
+lang: es
+
+author:
+  name: IER, UNAM--Coursera
+  email: https://www.coursera.org/specializations/python-cero-analista
+  afiliation: Instituto de Energías Renovables, UNAM
+format: 
+  revealjs:
+    slide-number: c/t  
+    touch: true
+    theme: white    
+    incremental: true   
+
+footer: "[PE en Coursera](https://www.coursera.org/specializations/python-cero-analista)"
+css: python-pe.css   # <── aquí
+logo: Logo-PyEContinua-COLOR.png  # opcional: usa logo RevealJS nativo
+
+---
+
+
+## Contenido y Objetivo del PE  {background-image="Logo-PyEContinua-COLOR.png" background-size="contain" background-position="center" background-opacity="0.2" .incremental}
+
+<br>
+<br>
+<br>
+
+- 1: Instalar y aprender Python usando la Jupyter Notebook
+- 2: Limpieza, manejo y visualización de datos
+- 3: Manejo avanzado de datos y Python, nuevas tecnologías.
+- Crear una **comunidad de Ciencia de Datos** en el IER-UNAM.
+
+---
+
+## 1 · Python: _de cero a usuario_
+
+<br>
+
+### Objetivo
+
+Aprender la sintaxis básica de Python, gestionar variables, estructuras de control y funciones integradas mientras se trabaja en libretas Jupyter (Windows, Linux, macOS); instalar paquetes y dominar el uso de la libreta de Jupyter.
+
+<br>
+
+**Resultado clave:** Instalación y configuración de Python, la libreta de Jupyter y el espacio de trabajo.
+
+---
+
+## 2 · Python: _de usuario a explorador de datos_
+
+<br>
+
+### Objetivo
+
+Consolidar el flujo **ETL → EDA**:  
+1. Leer y limpiar archivos CSV/XLSX.  
+2. Manipular _DataFrames_, series temporales y *multi-índices* con **Pandas**.  
+3. Visualizar datos con **Matplotlib** (figuras personalizadas, dashboards ligeros).  
+4. Introducir **NumPy** para cálculos vectorizados y gradientes.
+
+<br>
+
+**Resultado clave:** Limpieza de datos, ETL, EDA.
+
+---
+
+## 
+![](explorador.png) 
+
+::: footer
+[https://altamarmx.github.io/explorador/](https://altamarmx.github.io/explorador/)
+::: 
+
+---
+
+## 3 · Python: _de explorador de datos a analista_
+
+<br>
+
+### Objetivo
+
+Profundizar en **configuración avanzada** y **desarrollo de proyectos**:
+
+- Entornos virtuales, buenas practicas PEP.  
+- **POO, decoradores y funciones lambda**.  
+- Visualización interactiva con **Plotly / Bokeh** y gramáticas de gráficos.  
+- Automatizar informes y apps: **Quarto + Shiny**.  
+
+<br>
+
+**Resultado clave:** Entornos de trabajo reproducibles, estrategias avanzadas, visualizaciones interactivas y nuevas tecnologías.
+
+---
+
+## 
+![](analista.png) 
+
+::: footer
+[https://altamarmx.github.io/analista/](https://altamarmx.github.io/analista/)
+::: 
+
+## ¡Inicia ya! {.center}
+
+<br>
+
+### [PE en Coursera de Cero a Analista https://www.coursera.org/specializations/python-cero-analista](https://www.coursera.org/specializations/python-cero-analista) {.center }

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html#contenido-y-objetivo-del-pe",
+    "href": "index.html#contenido-y-objetivo-del-pe",
+    "title": "PE: Python, de cero a analista",
+    "section": "Contenido y Objetivo del PE",
+    "text": "Contenido y Objetivo del PE\n  \n\n1: Instalar y aprender Python usando la Jupyter Notebook\n2: Limpieza, manejo y visualización de datos\n3: Manejo avanzado de datos y Python, nuevas tecnologías.\nCrear una comunidad de Ciencia de Datos en el IER-UNAM."
+  },
+  {
+    "objectID": "index.html#python-de-cero-a-usuario",
+    "href": "index.html#python-de-cero-a-usuario",
+    "title": "PE: Python, de cero a analista",
+    "section": "1 · Python: de cero a usuario",
+    "text": "1 · Python: de cero a usuario\n\nObjetivo\nAprender la sintaxis básica de Python, gestionar variables, estructuras de control y funciones integradas mientras se trabaja en libretas Jupyter (Windows, Linux, macOS); instalar paquetes y dominar el uso de la libreta de Jupyter.\n\nResultado clave: Instalación y configuración de Python, la libreta de Jupyter y el espacio de trabajo."
+  },
+  {
+    "objectID": "index.html#python-de-usuario-a-explorador-de-datos",
+    "href": "index.html#python-de-usuario-a-explorador-de-datos",
+    "title": "PE: Python, de cero a analista",
+    "section": "2 · Python: de usuario a explorador de datos",
+    "text": "2 · Python: de usuario a explorador de datos\n\nObjetivo\nConsolidar el flujo ETL → EDA:\n1. Leer y limpiar archivos CSV/XLSX.\n2. Manipular DataFrames, series temporales y multi-índices con Pandas.\n3. Visualizar datos con Matplotlib (figuras personalizadas, dashboards ligeros).\n4. Introducir NumPy para cálculos vectorizados y gradientes.\n\nResultado clave: Limpieza de datos, ETL, EDA."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "PE: Python, de cero a analista",
+    "section": "",
+    "text": "https://altamarmx.github.io/explorador/"
+  },
+  {
+    "objectID": "index.html#python-de-explorador-de-datos-a-analista",
+    "href": "index.html#python-de-explorador-de-datos-a-analista",
+    "title": "PE: Python, de cero a analista",
+    "section": "3 · Python: de explorador de datos a analista",
+    "text": "3 · Python: de explorador de datos a analista\n\nObjetivo\nProfundizar en configuración avanzada y desarrollo de proyectos:\n\nEntornos virtuales, buenas practicas PEP.\n\nPOO, decoradores y funciones lambda.\n\nVisualización interactiva con Plotly / Bokeh y gramáticas de gráficos.\n\nAutomatizar informes y apps: Quarto + Shiny.\n\n\nResultado clave: Entornos de trabajo reproducibles, estrategias avanzadas, visualizaciones interactivas y nuevas tecnologías."
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "PE: Python, de cero a analista",
+    "section": "",
+    "text": "https://altamarmx.github.io/analista/"
+  },
+  {
+    "objectID": "index.html#inicia-ya",
+    "href": "index.html#inicia-ya",
+    "title": "PE: Python, de cero a analista",
+    "section": "¡Inicia ya!",
+    "text": "¡Inicia ya!\n\nPE en Coursera de Cero a Analista https://www.coursera.org/specializations/python-cero-analista"
+  }
+]
