@@ -19,6 +19,8 @@ logo: Logo-PyEContinua-COLOR.png  # opcional: usa logo RevealJS nativo
 
 ---
 
+## ![](qrcode_altamarmx.github.io.png) {.center width="800px"}
+
 
 ## Contenido y Objetivo del PE  {background-image="Logo-PyEContinua-COLOR.png" background-size="contain" background-position="center" background-opacity="0.2" .incremental}
 

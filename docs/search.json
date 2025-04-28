@@ -21,8 +21,8 @@
     "text": "2 · Python: de usuario a explorador de datos\n\nObjetivo\nConsolidar el flujo ETL → EDA:\n1. Leer y limpiar archivos CSV/XLSX.\n2. Manipular DataFrames, series temporales y multi-índices con Pandas.\n3. Visualizar datos con Matplotlib (figuras personalizadas, dashboards ligeros).\n4. Introducir NumPy para cálculos vectorizados y gradientes.\n\nResultado clave: Limpieza de datos, ETL, EDA."
   },
   {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
     "title": "PE: Python, de cero a analista",
     "section": "",
     "text": "https://altamarmx.github.io/explorador/"
@@ -35,8 +35,8 @@
     "text": "3 · Python: de explorador de datos a analista\n\nObjetivo\nProfundizar en configuración avanzada y desarrollo de proyectos:\n\nEntornos virtuales, buenas practicas PEP.\n\nPOO, decoradores y funciones lambda.\n\nVisualización interactiva con Plotly / Bokeh y gramáticas de gráficos.\n\nAutomatizar informes y apps: Quarto + Shiny.\n\n\nResultado clave: Entornos de trabajo reproducibles, estrategias avanzadas, visualizaciones interactivas y nuevas tecnologías."
   },
   {
-    "objectID": "index.html#section-1",
-    "href": "index.html#section-1",
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
     "title": "PE: Python, de cero a analista",
     "section": "",
     "text": "https://altamarmx.github.io/analista/"
